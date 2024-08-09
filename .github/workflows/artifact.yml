@@ -31,5 +31,5 @@ jobs:
 
     - name: Display the Hello text file
       run: |
-           'la -lrth'
+           'ls -lrth'
            cat ./artifacts/hello.txt
