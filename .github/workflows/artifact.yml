@@ -30,6 +30,4 @@ jobs:
         path: ./artifacts
 
     - name: Display the Hello text file
-      run: |
-           ls
-           cat ./artifacts/hello.txt
+      run: cat ./artifacts/hello.txt
